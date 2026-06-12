@@ -16,6 +16,24 @@ A beautiful Flutter app for tracking monthly expenses with a clean dark-mode UI.
 
 ---
 
+## 📸 Screenshots
+
+> Tested on Android Emulator — June 2025
+
+| Home Screen | Profile Screen |
+|:-----------:|:--------------:|
+| ![Home Screen](screenshots/home_screen.png) | ![Profile Screen](screenshots/profile_screen.png) |
+
+| Add Expense | Filter Transactions |
+|:-----------:|:-------------------:|
+| ![Add Expense](screenshots/add_expense.png) | ![Filter Transactions](screenshots/filter_transactions.png) |
+
+| Transaction Detail |
+|:------------------:|
+| ![Transaction Detail](screenshots/transaction_detail.png) |
+
+---
+
 ## 🗂 Project Structure
 
 ```
@@ -71,12 +89,6 @@ flutter run
 
 ---
 
-## 📸 Screenshots
-
-> Run on emulator and add screenshots to `/screenshots` folder before submission.
-
----
-
 ## 📦 Dependencies
 
 | Package | Use |
@@ -91,4 +103,3 @@ flutter run
 ---
 
 *Built with ❤️ using Flutter*
-# Spend-Summary
