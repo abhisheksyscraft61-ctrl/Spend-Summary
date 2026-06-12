@@ -312,22 +312,23 @@ class _FilterSheetState extends State<_FilterSheet> {
                 initialDateRange: _selectedRange,
                 saveText: 'DONE',
                 builder: (ctx, child) => Theme(
-                  data: Theme.of(ctx).copyWith(
-                    colorScheme: ColorScheme.light(
+                  data: ThemeData.dark().copyWith(
+                    colorScheme: ColorScheme.dark(
                       primary: AppColors.primary,
                       onPrimary: Colors.white,
-                      onSurface: Colors.black87,        // date text visible
-                      surface: Colors.white,            // background white
-                      secondaryContainer: AppColors.primary.withOpacity(0.15),
-                      onSecondaryContainer: AppColors.primary,
+                      surface: const Color(0xFF1C1C1E),
+                      onSurface: Colors.white,
+                      secondaryContainer: AppColors.primary.withOpacity(0.25),
+                      onSecondaryContainer: Colors.white,
+                      outline: Colors.white24,
                     ),
                     textButtonTheme: TextButtonThemeData(
                       style: TextButton.styleFrom(
-                        foregroundColor: AppColors.primary, // CANCEL & DONE visible
+                        foregroundColor: AppColors.primary,
                       ),
                     ),
                     dialogTheme: const DialogThemeData(
-                      backgroundColor: Colors.white,
+                      backgroundColor: Color(0xFF1C1C1E),
                     ),
                   ),
                   child: child!,
