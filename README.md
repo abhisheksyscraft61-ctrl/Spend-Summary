@@ -20,17 +20,30 @@ A beautiful Flutter app for tracking monthly expenses with a clean dark-mode UI.
 
 > Tested on Android Emulator — June 2025
 
-| Home Screen | Profile Screen |
-|:-----------:|:--------------:|
-| ![Home Screen](screenshots/home_screen.png) | ![Profile Screen](screenshots/profile_screen.png) |
+<p align="center">
+  <img src="screenshots/home_screen.png" width="30%" alt="Home Screen"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/profile_screen.png" width="30%" alt="Profile Screen"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/add_expense.png" width="30%" alt="Add Expense"/>
+</p>
 
-| Add Expense | Filter Transactions |
-|:-----------:|:-------------------:|
-| ![Add Expense](screenshots/add_expense.png) | ![Filter Transactions](screenshots/filter_transactions.png) |
+<p align="center">
+  <img src="screenshots/filter_transactions.png" width="30%" alt="Filter Transactions"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/transaction_detail.png" width="30%" alt="Transaction Detail"/>
+</p>
 
-| Transaction Detail |
-|:------------------:|
-| ![Transaction Detail](screenshots/transaction_detail.png) |
+<p align="center">
+  <b>Home</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Profile</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Add Expense</b>
+</p>
+
+<p align="center">
+  <b>Filter Transactions</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Transaction Detail</b>
+</p>
 
 ---
 
@@ -58,7 +71,7 @@ lib/
 │   └── profile/profile_screen.dart
 ├── widgets/
 │   ├── spend_header_card.dart
-│   ├── category_scroll_section.dart
+│   ├── category_scroll_section.png
 │   ├── transaction_tile.dart
 │   ├── transaction_list_section.dart
 │   ├── add_expense_sheet.dart
@@ -84,7 +97,7 @@ flutter pub get
 flutter run
 ```
 
-**Minimum SDK:** Flutter 3.x, Dart 3.x  
+**Minimum SDK:** Flutter 3.41.1, Dart 3.11.0  
 **Target:** Android / iOS
 
 ---
